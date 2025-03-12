@@ -23,7 +23,7 @@ set instance_count 0
 array set module_counts {}
 
 # Regular expressions for Verilog and VHDL instances
-set verilog_pattern {^\s*(\w+)\s+(\w+)\s*\(}
+set verilog_pattern {^\s*(\w+)\s+(\w+)\s*\(\s*\.}
 set vhdl_pattern {^\s*(\w+)\s*:\s*(\w+)\s+port\s+map}
 
 # Read file line by line
